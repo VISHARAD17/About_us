@@ -190,7 +190,13 @@
 
 @media only screen and (max-width: 600px) {
   .contact-card {
-    height: 340px;
+    height: 370px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .contact-card {
+    height: 440px;
   }
 }
 
