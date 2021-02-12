@@ -112,7 +112,7 @@
 
 @media only screen and (max-width: 850px) {
     .map-card {
-      width: 110%;
+      width: 120%;
     }
   }
 
@@ -150,27 +150,6 @@
     transform-origin: center;
   }
 
-.arrow {
-    text-align: center;
-    margin: 8% 0;
-    color: rgb(106, 105, 201);
-  }
-  
-.arrow-a a i {
-      color: rgb(106, 105, 201);
-  }
-  
-.arrow-a a {
-      text-decoration: none;
-      color: rgb(106, 105, 201);
-  }
-  
-.bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-  }
-
 .contact-card {
   width: 60%;
   border: none;
@@ -178,8 +157,6 @@
   background: #ffffff;
   box-shadow:  5px 5px 16px #a8a8a8,
            -5px -5px 16px #ffffff;
-  height: 300px;
-  width: 350px;
 }
 
 .contact-card h4 {
@@ -190,32 +167,17 @@
 
 @media only screen and (max-width: 600px) {
   .contact-card {
-    height: 370px;
-  }
+    width: fit-content  }
 }
 
 @media only screen and (max-width: 380px) {
   .contact-card {
-    height: 440px;
+    width: fit-content;
   }
 }
 
 .contact-us-but {
   font-family: var(--text-font);
   font-size: 17px;
-
-}
-
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
 
 }
